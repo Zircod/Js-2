@@ -1,0 +1,33 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+.header {
+    height: 50px;
+    background: gray;
+    margin-bottom: 20px;
+}
+.products {
+    display: flex;
+}
+
+.product-item {
+    justify-content: space-between;
+    text-align: center;
+    width: 360px;
+    margin-right: 20px;
+    border: 1px gray solid;
+}
+
+.product-title {
+    color: red;
+}
+
+.product-price {
+    color: green;
+}
+.btn {
+    border: 1px solid #0b5ed7;
+    background: #b6d4fe;
+    padding: 5px 15px;
+    margin: 20px;
+}
